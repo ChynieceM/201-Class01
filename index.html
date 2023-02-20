@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1 {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(139, 144, 148);
+            border: 2px solid black;
+        }
+        #p2 {
+            color: rgb(9, 54, 69);
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            border: 2px solid black;
+        }
+        #p3 {
+            color: rgb(74, 9, 9);
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(181, 185, 188);
+            border: 2px solid black;
+        }
+        #p4 {
+            color: rgb(170, 243, 216);
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(2, 50, 24);
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h1>Class 01 Lab</h1>
+        <p id="p1">What is your name?</p>
+        <p id="p2">Where are you from?</p>
+        <p id="p3">How old are you?</p>
+        <p id="p4">What is your favorite color?</p>
+    </main>
+
+    <script>
+
+
+        //question 1
+
+        let name = prompt("What is your name?");
+
+        console.log(name + " This is the users name");
+
+        //question 2
+
+        let locations = prompt("Where are you from?");
+
+        console.log(locations + " This is where the user is from");
+
+        //question 3
+
+        let age = prompt("How old are you?", "numbers only plz");
+
+        console.log(age + " This is the users age");
+        
+        
+        //question 4
+
+        let color = prompt("What is your favorite color?");
+        console.log(color + " This is the users favorite color");
+
+        alert("Hello " + name + "." + " I'm from Memphis. " + locations + " is a cool place. " + age + " is a good age to be right now, don't take it for granted :). " + " I like " + color + " as well. Nice to virutally meet you.");
+
+    </script>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
